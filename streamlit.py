@@ -13,13 +13,13 @@ def extract_english(text):
 
 
 # MongoDB connection details
-MONGODB_URL = os.environ.get('MONGODB_URL')
+MONGODB_URL = 'mongodb+srv://adibskitto:QsRbJD3MAhcO8IL7@cluster0.96y8ytj.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0'
 client = MongoClient(MONGODB_URL)
 database = client['boycott']
 collection = database['products']
 
 # Streamlit app
-st.markdown("<h2 style = 'color : #a34f3e'>আপনার নিজের সামর্থ্য দিয়ে সর্বোচ্চ চেষ্টা করুন <br/> মানবতার বিজয় হবেই ইনশাআল্লাহ</h2>", unsafe_allow_html=True)
+st.markdown("<h2 style = 'color : tomato'>আপনার নিজের সামর্থ্য দিয়ে সর্বোচ্চ চেষ্টা করুন <br/> মানবতার বিজয় হবেই ইনশাআল্লাহ</h2>", unsafe_allow_html=True)
 st.title("Boycott Israeli Products")
 
 # Sidebar for user input
