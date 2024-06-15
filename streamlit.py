@@ -19,7 +19,7 @@ database = client['boycott']
 collection = database['products']
 
 # Streamlit app
-st.markdown("<h2 style = 'color : tomato'>আপনার নিজের সামর্থ্য দিয়ে সর্বোচ্চ চেষ্টা করুন <br/> মানবতার বিজয় হবেই ইনশাআল্লাহ</h2>", unsafe_allow_html=True)
+st.markdown("<h2 style = 'color : tomato; text-align : center'>আপনার নিজের সামর্থ্য দিয়ে সর্বোচ্চ চেষ্টা করুন <br/> মানবতার বিজয় হবেই ইনশাআল্লাহ</h2>", unsafe_allow_html=True)
 st.title("Boycott Israeli Products")
 
 # Sidebar for user input
@@ -74,7 +74,7 @@ if st.button("Search"):
         st.error("Product not found.")
 
     st.markdown("<p style='color : blue; '>সকল পন্যের নাম রাখা সম্ভব হয়নি। এই তালিকা উন্নতি করতে আপনাদের সকলের সহযোগিতা একান্ত কাম্য</p>", unsafe_allow_html=True)
-    
+    st.markdown("<p style='text-align: center'>&copy Copyright : Tasmim Rahman Adib</p>", unsafe_allow_html=True)
 
 # # Input field for updating a product
 # st.header("Update Product")
