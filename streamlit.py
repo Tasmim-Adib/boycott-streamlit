@@ -53,7 +53,7 @@ data = ["Select Category", "Soap (সাবান)", "Shampoo (শ্যাম�
 
 # Input field for fetching a product by category
 
-fetch_category = st.selectbox("Select Category to Fetch Product", options=data)
+fetch_category = st.selectbox(" ", options=data)
 
 if st.button("Search"):
     fetch_category = extract_english(fetch_category)
