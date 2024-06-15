@@ -73,7 +73,7 @@ if st.button("Search"):
     else:
         st.error("Product not found.")
 
-    st.markdown("<p style='color : blue; '>সকল পন্যের নাম রাখা সম্ভব হয়নি। এই তালিকা উন্নতি করতে আপনাদের সকলের সহযোগিতা একান্ত কাম্য</p>", unsafe_allow_html=True)
+    st.markdown("<p style='color : #621f00; '>সকল পন্যের নাম রাখা সম্ভব হয়নি। এই তালিকা উন্নতি করতে আপনাদের সহযোগিতা একান্ত কাম্য</p>", unsafe_allow_html=True)
     st.markdown("<p style='text-align: center'>&copy Copyright : Tasmim Rahman Adib</p>", unsafe_allow_html=True)
 
 # # Input field for updating a product
