@@ -13,7 +13,7 @@ def extract_english(text):
 
 
 # MongoDB connection details
-MONGODB_URL = 'mongodb+srv://adibskitto:QsRbJD3MAhcO8IL7@cluster0.96y8ytj.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0'
+MONGODB_URL = os.getenv("MONGODB_URL")
 client = MongoClient(MONGODB_URL)
 database = client['boycott']
 collection = database['products']
