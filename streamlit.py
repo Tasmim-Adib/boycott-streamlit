@@ -32,7 +32,7 @@ st.markdown("<h2 style = 'color : tomato; text-align : center'>Boycott Indian Pr
 # india_list = st.sidebar.text_area("India List (comma-separated)")
 # israel_list = st.sidebar.text_area("Israel List (comma-separated)")
 
-data = ["Select Category", "Soap (সাবান)", "Shampoo (শ্যাম্পু)", "Face Wash (ফেস ওয়াস)", "Toothpaste (টুথপেস্ট)", "Detergent (ডিটারজেন্ট)","Perfume and Body Spray (পারফিউম ও বডি স্প্রে)","Tea (চা)","Coffee (কফি)","Water (পানি)"
+data = ["Select Category", "Rice (চাল)","Oil (তেল)", "Soap (সাবান)", "Shampoo (শ্যাম্পু)", "Face Wash (ফেস ওয়াস)", "Toothpaste (টুথপেস্ট)", "Detergent (ডিটারজেন্ট)","Perfume and Body Spray (পারফিউম ও বডি স্প্রে)","Tea (চা)","Coffee (কফি)","Water (পানি)"
   ,"Cold and Soft Drink (কোল্ড ও সফট ড্রিংক্স)","Toilet Cleaner (টয়লেট ক্লিনার)","Dish Cleaner (ডিস ক্লিনার)","Juice (জুস)","Chocolate (চকলেট)","Sanitary Napkin and Pad (স্যানিটারি ন্যাপকিন ও প্যাড)","Powder Drink (পাউডার ড্রিংক)",
    ,"lotion (লোশন)","shower gel (শাওয়ার জেল)","Condom and Pill (কনডম ও পিল)",]
  
