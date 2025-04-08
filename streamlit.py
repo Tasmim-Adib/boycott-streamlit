@@ -76,7 +76,7 @@ if st.button("Search"):
         st.markdown("<h3 style='color: green;'>Local Products (দেশীয় পণ্য):</h3>", unsafe_allow_html=True)
         st.markdown("<ul>" + "".join([f"<li>{item}</li>" for item in product['l']]) + "</ul>", unsafe_allow_html=True)
         
-        st.markdown("<a href='https://boycott.thewitness.news/browse/1'>Visit this site to get details</a>", unsafe_allow_html=True)
+        st.markdown("<a href='https://boycott.thewitness.news/browse/1' style='color: red;>Visit this site to get details</a>", unsafe_allow_html=True)
 
         
         
