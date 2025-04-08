@@ -19,7 +19,7 @@ database = client['boycott']
 collection = database['products']
 
 # Streamlit app
-st.markdown("<h2 style = 'color : tomato; text-align : center'>আপনার নিজের সামর্থ্য দিয়ে সর্বোচ্চ চেষ্টা করুন <br/> মানবতার বিজয় হবেই ইনশাআল্লাহ</h2>", unsafe_allow_html=True)
+st.markdown("<h2 style = 'color : green; text-align : center'>আপনার নিজের সামর্থ্য দিয়ে সর্বোচ্চ চেষ্টা করুন <br/> মানবতার বিজয় হবেই ইনশাআল্লাহ</h2>", unsafe_allow_html=True)
 # st.title("Boycott Israeli Products")
 st.markdown("<h2 style = 'color : tomato; text-align : center'>Boycott Israeli Products</h2>", unsafe_allow_html=True)
 # st.title("Boycott Indian Products")
