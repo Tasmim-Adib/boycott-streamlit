@@ -19,9 +19,9 @@ database = client['boycott']
 collection = database['products']
 
 # Streamlit app
-# st.markdown("<h2 style = 'color : tomato; text-align : center'>আপনার নিজের সামর্থ্য দিয়ে সর্বোচ্চ চেষ্টা করুন <br/> মানবতার বিজয় হবেই ইনশাআল্লাহ</h2>", unsafe_allow_html=True)
+st.markdown("<h2 style = 'color : tomato; text-align : center'>আপনার নিজের সামর্থ্য দিয়ে সর্বোচ্চ চেষ্টা করুন <br/> মানবতার বিজয় হবেই ইনশাআল্লাহ</h2>", unsafe_allow_html=True)
 # st.title("Boycott Israeli Products")
-st.markdown("<h2 style = 'color : tomato; text-align : center'>Boycott Indian Products</h2>", unsafe_allow_html=True)
+st.markdown("<h2 style = 'color : tomato; text-align : center'>Boycott Israeli Products</h2>", unsafe_allow_html=True)
 # st.title("Boycott Indian Products")
 # Sidebar for user input
 # st.sidebar.header("Add Product")
@@ -64,15 +64,17 @@ if st.button("Search"):
         st.markdown(f"## Category: {product['c'].capitalize()}")
 
 
-        st.markdown("<h3 style='color: red;'>Indian Product (ভারতীয় পণ্য):</h3>", unsafe_allow_html=True)
-        st.markdown("<ul>" + "".join([f"<li>{item}</li>" for item in product['ia']]) + "</ul>", unsafe_allow_html=True)
+        # st.markdown("<h3 style='color: red;'>Indian Product (ভারতীয় পণ্য):</h3>", unsafe_allow_html=True)
+        # st.markdown("<ul>" + "".join([f"<li>{item}</li>" for item in product['ia']]) + "</ul>", unsafe_allow_html=True)
 
 
-        st.markdown("<h3 style='color: green;'>Local Products (দেশীয় পণ্য):</h3>", unsafe_allow_html=True)
-        st.markdown("<ul>" + "".join([f"<li>{item}</li>" for item in product['l']]) + "</ul>", unsafe_allow_html=True)
+        
 
         st.markdown("<h3 style='color: red;'>Related to Israel (ইসরাইলের সাথে সম্পর্কিত):</h3>", unsafe_allow_html=True)
         st.markdown("<ul>" + "".join([f"<li>{item}</li>" for item in product['ir']]) + "</ul>", unsafe_allow_html=True)
+
+        st.markdown("<h3 style='color: green;'>Local Products (দেশীয় পণ্য):</h3>", unsafe_allow_html=True)
+        st.markdown("<ul>" + "".join([f"<li>{item}</li>" for item in product['l']]) + "</ul>", unsafe_allow_html=True)
         
         st.markdown("<a href='https://boycott.thewitness.news/browse/1'>Visit this site to get details</a>", unsafe_allow_html=True)
 
